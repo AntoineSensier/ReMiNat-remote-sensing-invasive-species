@@ -1,5 +1,5 @@
 # ReMiNat-remote-sensing-invasive-species
-Remote Sensing treatments for detection of alien invasive plant species with very high-resolution image (project ReMiNat : restauration des milieu naturels de la Réunion)
+Remote Sensing treatments for detection of alien invasive plantz species with very high-resolution image (project ReMiNat : restauration des milieu naturels de la Réunion)
 
 The project use model builder of QGIS (minimum 3.4) and Python with scikit-learn.
 
