@@ -1,0 +1,2774 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:rasterlayerstatistics_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:rasterlayerstatistics" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2076" name="component_pos_x"/>
+        <Option type="double" value="1519" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Raster layer statistics" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="119" name="component_pos_x"/>
+      <Option type="double" value="1412" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:rasterlayerstatistics_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="BAND">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="otb:RadiometricIndices_1" name="child_id"/>
+            <Option type="QString" value="out" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1775.5398286808897" name="component_pos_x"/>
+        <Option type="double" value="1071.5" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath BNDVI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1482.68405211839" name="component_pos_x"/>
+      <Option type="double" value="127.68332062499996" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="BNDVI">
+          <Option type="QString" value="otb:BandMath_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="BNDVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1752.68405211839" name="component_pos_x"/>
+          <Option type="double" value="141.68332062499996" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="BNDVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b3-im1b4)/(im1b3+im1b4)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_10">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1430.7107121875001" name="component_pos_x"/>
+        <Option type="double" value="497.26151500000003" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath ExG" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1331.078194375" name="component_pos_x"/>
+      <Option type="double" value="1409.757613125" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_10" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="EXG">
+          <Option type="QString" value="otb:BandMath_10" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="EXG" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1557.0686303124999" name="component_pos_x"/>
+          <Option type="double" value="1475.0121653125" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="EXG" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="2*im1b3-im1b2-im1b4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_11">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="824" name="component_pos_x"/>
+        <Option type="double" value="1120" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath NDVI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="655" name="component_pos_x"/>
+      <Option type="double" value="1168" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_11" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="NDVI">
+          <Option type="QString" value="otb:BandMath_11" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="NDVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="922" name="component_pos_x"/>
+          <Option type="double" value="1218" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="NDVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b1-im1b2)/(im1b1+im1b2)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_12">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="817" name="component_pos_x"/>
+        <Option type="double" value="1104" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath GDVI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1505" name="component_pos_x"/>
+      <Option type="double" value="889" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_12" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="GDVI">
+          <Option type="QString" value="otb:BandMath_12" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="GDVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1840" name="component_pos_x"/>
+          <Option type="double" value="938" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="GDVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b1-im1b3)/(im1b1+im1b3)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_13">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1240" name="component_pos_x"/>
+        <Option type="double" value="1273" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath Cigreen" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1390.5" name="component_pos_x"/>
+      <Option type="double" value="1324" name="component_pos_y"/>
+      <Option type="double" value="211" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_13" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Cigreen">
+          <Option type="QString" value="otb:BandMath_13" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="Cigreen" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1583.5" name="component_pos_x"/>
+          <Option type="double" value="1384" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="Cigreen" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b1/im1b3)-1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_14">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1548" name="component_pos_x"/>
+        <Option type="double" value="1015" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath CVI" name="component_description"/>
+      <Option type="double" value="37" name="component_height"/>
+      <Option type="double" value="1367.5" name="component_pos_x"/>
+      <Option type="double" value="1068.5" name="component_pos_y"/>
+      <Option type="double" value="211" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_14" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="CVI">
+          <Option type="QString" value="otb:BandMath_14" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="CVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1666.5" name="component_pos_x"/>
+          <Option type="double" value="1146" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="CVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b1*im1b2)/(im1b3*im1b3)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_15">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1770" name="component_pos_x"/>
+        <Option type="double" value="1141" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath MSR" name="component_description"/>
+      <Option type="double" value="37" name="component_height"/>
+      <Option type="double" value="1434.5" name="component_pos_x"/>
+      <Option type="double" value="962.5" name="component_pos_y"/>
+      <Option type="double" value="211" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_15" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="MSR">
+          <Option type="QString" value="otb:BandMath_15" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="MSR" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1717.5" name="component_pos_x"/>
+          <Option type="double" value="1010" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="MSR" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="false" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b1/im1b2-1)/(sqrt(im1b1/im1b2)+1)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_16">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1336" name="component_pos_x"/>
+        <Option type="double" value="1255" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath EVI" name="component_description"/>
+      <Option type="double" value="37" name="component_height"/>
+      <Option type="double" value="1385.5" name="component_pos_x"/>
+      <Option type="double" value="1190.5" name="component_pos_y"/>
+      <Option type="double" value="211" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_16" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="EVI">
+          <Option type="QString" value="otb:BandMath_16" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="EVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1630.5" name="component_pos_x"/>
+          <Option type="double" value="1278" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="EVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="2.5*(im1b1-im1b2)/(im1b1*+6*im1b2-7.5*im1b4+1)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_17">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="936" name="component_pos_x"/>
+        <Option type="double" value="1137" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath RedIndex2" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1356" name="component_pos_x"/>
+      <Option type="double" value="1609" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_17" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RI2">
+          <Option type="QString" value="otb:BandMath_17" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="RI2" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1597" name="component_pos_x"/>
+          <Option type="double" value="1648" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="RI2" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="im1b2/(im1b1+im1b2+im1b3)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1849" name="component_pos_x"/>
+        <Option type="double" value="1077" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath Green Index" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1522.1442234375" name="component_pos_x"/>
+      <Option type="double" value="222.18332062499996" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_2" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="GI">
+          <Option type="QString" value="otb:BandMath_2" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="GI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1722.1442234375" name="component_pos_x"/>
+          <Option type="double" value="267.18332062499996" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="GI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="im1b3/(im1b2+im1b3+im1b4)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2035" name="component_pos_x"/>
+        <Option type="double" value="1107" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath MYI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1527.1442234375" name="component_pos_x"/>
+      <Option type="double" value="313.18332062499996" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_3" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="MYI">
+          <Option type="QString" value="otb:BandMath_3" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="MYI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1727.1442234375" name="component_pos_x"/>
+          <Option type="double" value="358.18332062499996" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="MYI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="im1b2*im1b3/im1b4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2163" name="component_pos_x"/>
+        <Option type="double" value="1164" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath HRFI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1563.1442234375" name="component_pos_x"/>
+      <Option type="double" value="437.18332062499996" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_4" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="HRFI">
+          <Option type="QString" value="otb:BandMath_4" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="HRFI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1755.1442234375" name="component_pos_x"/>
+          <Option type="double" value="482.18332062499996" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="HRFI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b2 - im1b4) * (im1b3 - im1b4)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2285" name="component_pos_x"/>
+        <Option type="double" value="1181" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath CRI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1698.1442234375" name="component_pos_x"/>
+      <Option type="double" value="538.183320625" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_5" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="CRI">
+          <Option type="QString" value="otb:BandMath_5" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="CRI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1932" name="component_pos_x"/>
+          <Option type="double" value="558" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="CRI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="1/im1b4-1/im1b3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_6">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2340" name="component_pos_x"/>
+        <Option type="double" value="1201" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath GLI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1556" name="component_pos_x"/>
+      <Option type="double" value="578" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_6" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="GLI">
+          <Option type="QString" value="otb:BandMath_6" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="GLI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1813" name="component_pos_x"/>
+          <Option type="double" value="622" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="GLI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="((im1b3 - im1b2) + (im1b3 - im1b4)) / (2 * im1b3 + im1b4 + im1b2)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_8">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1312" name="component_pos_x"/>
+        <Option type="double" value="471" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath RGV" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1545.31537875" name="component_pos_x"/>
+      <Option type="double" value="65.18332062500008" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_8" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RGV">
+          <Option type="QString" value="otb:BandMath_8" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="RGV" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1781.3301453125" name="component_pos_x"/>
+          <Option type="double" value="89.2224178125" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="RGV" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="im1b2/im1b3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:BandMath_9">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:BandMath" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1373.278041875" name="component_pos_x"/>
+        <Option type="double" value="485.13684015625" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="BandMath VARI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1691.4661445312502" name="component_pos_x"/>
+      <Option type="double" value="-2.3618592187499985" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:BandMath_9" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="VARI">
+          <Option type="QString" value="otb:BandMath_9" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="VARI" name="component_description"/>
+          <Option type="double" value="30.000000000000007" name="component_height"/>
+          <Option type="double" value="1907.4196640625005" name="component_pos_x"/>
+          <Option type="double" value="39.447436874999994" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="VARI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="exp">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="(im1b3-im1b2)/(im1b3+im1b2-im1b4)" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="il">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:HaralickTextureExtraction_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:HaralickTextureExtraction" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2762" name="component_pos_x"/>
+        <Option type="double" value="1372" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="HaralickTextureExtraction simple" name="component_description"/>
+      <Option type="double" value="32" name="component_height"/>
+      <Option type="double" value="281" name="component_pos_x"/>
+      <Option type="double" value="1482" name="component_pos_y"/>
+      <Option type="double" value="226" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:HaralickTextureExtraction_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="haralick_simple">
+          <Option type="QString" value="otb:HaralickTextureExtraction_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="haralick_simple" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="574" name="component_pos_x"/>
+          <Option type="double" value="1482" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="haralick_simple" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channel">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="otb:RadiometricIndices_1" name="child_id"/>
+            <Option type="QString" value="out" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.max">
+          <Option type="Map">
+            <Option type="QString" value=" @Raster_layer_statistics_MAX " name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.min">
+          <Option type="Map">
+            <Option type="QString" value=" @Raster_layer_statistics_MIN " name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.nbbin">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="16" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xoff">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xrad">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yoff">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yrad">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="step">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="texture">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="simple" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:HaralickTextureExtraction_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:HaralickTextureExtraction" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2898" name="component_pos_x"/>
+        <Option type="double" value="1393" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="HaralickTextureExtraction advanced" name="component_description"/>
+      <Option type="double" value="32" name="component_height"/>
+      <Option type="double" value="671" name="component_pos_x"/>
+      <Option type="double" value="1591" name="component_pos_y"/>
+      <Option type="double" value="226" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:HaralickTextureExtraction_2" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="haralick_advanced">
+          <Option type="QString" value="otb:HaralickTextureExtraction_2" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="haralick_advanced" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="816" name="component_pos_x"/>
+          <Option type="double" value="1691" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="haralick_advanced" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channel">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="otb:RadiometricIndices_1" name="child_id"/>
+            <Option type="QString" value="out" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.max">
+          <Option type="Map">
+            <Option type="QString" value=" @Raster_layer_statistics_MAX " name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.min">
+          <Option type="Map">
+            <Option type="QString" value=" @Raster_layer_statistics_MIN " name="expression"/>
+            <Option type="int" value="3" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.nbbin">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="16" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xoff">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.xrad">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yoff">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.yrad">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="step">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="texture">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="advanced" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1658" name="component_pos_x"/>
+        <Option type="double" value="1218.5" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices Brightness index" name="component_description"/>
+      <Option type="double" value="49" name="component_height"/>
+      <Option type="double" value="535.5" name="component_pos_x"/>
+      <Option type="double" value="1312" name="component_pos_y"/>
+      <Option type="double" value="213" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="BI">
+          <Option type="QString" value="otb:RadiometricIndices_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="BI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="88.24703760065586" name="component_pos_x"/>
+          <Option type="double" value="1352.2777287261654" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="windows-1252" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="true" name="mandatory"/>
+          <Option type="QString" value="BI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="18"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1721" name="component_pos_x"/>
+        <Option type="double" value="1239" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices Color index" name="component_description"/>
+      <Option type="double" value="49" name="component_height"/>
+      <Option type="double" value="1547.5" name="component_pos_x"/>
+      <Option type="double" value="653.5" name="component_pos_y"/>
+      <Option type="double" value="213" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_2" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="CI">
+          <Option type="QString" value="otb:RadiometricIndices_2" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="CI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1801.5" name="component_pos_x"/>
+          <Option type="double" value="684" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="windows-1252" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="true" name="mandatory"/>
+          <Option type="QString" value="CI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="17"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1868" name="component_pos_x"/>
+        <Option type="double" value="1273" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices Redness" name="component_description"/>
+      <Option type="double" value="49" name="component_height"/>
+      <Option type="double" value="1455.5" name="component_pos_x"/>
+      <Option type="double" value="744.5" name="component_pos_y"/>
+      <Option type="double" value="213" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_3" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RI">
+          <Option type="QString" value="otb:RadiometricIndices_3" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="611" name="component_pos_x"/>
+            <Option type="double" value="452" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="RI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1710.5" name="component_pos_x"/>
+          <Option type="double" value="832" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="RI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="16"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1054" name="component_pos_x"/>
+        <Option type="double" value="312" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices SAVI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1345" name="component_pos_x"/>
+      <Option type="double" value="1529" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_4" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="SAVI">
+          <Option type="QString" value="otb:RadiometricIndices_4" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="SAVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1614" name="component_pos_x"/>
+          <Option type="double" value="1575" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="SAVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="3"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="715" name="component_pos_x"/>
+        <Option type="double" value="693" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices NDWI2" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="643" name="component_pos_x"/>
+      <Option type="double" value="743" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_5" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="NDWI2">
+          <Option type="QString" value="otb:RadiometricIndices_5" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="NDWI2" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="775" name="component_pos_x"/>
+          <Option type="double" value="654" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="NDWI2" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="13"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_6">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="497" name="component_pos_x"/>
+        <Option type="double" value="697" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices RVI" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="297" name="component_pos_x"/>
+      <Option type="double" value="742" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_6" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="RVI">
+          <Option type="QString" value="otb:RadiometricIndices_6" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="RVI" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="299" name="component_pos_x"/>
+          <Option type="double" value="654" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="RVI" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="2"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:RadiometricIndices_7">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:RadiometricIndices" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="440" name="component_pos_x"/>
+        <Option type="double" value="845" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="RadiometricIndices BI2" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="240" name="component_pos_x"/>
+      <Option type="double" value="890" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:RadiometricIndices_7" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="BI2">
+          <Option type="QString" value="otb:RadiometricIndices_7" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="BI2" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="440" name="component_pos_x"/>
+          <Option type="double" value="935" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="BI2" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channels.blue">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="4" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.green">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="3" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.mir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.nir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="channels.red">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="raster" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="list">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="List" name="static_value">
+              <Option type="int" value="19"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="otb:SFSTextureExtraction_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="otb:SFSTextureExtraction" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="2891" name="component_pos_x"/>
+        <Option type="double" value="1572" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="SFSTextureExtraction" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="131" name="component_pos_x"/>
+      <Option type="double" value="1662" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="otb:SFSTextureExtraction_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="SFSTextures">
+          <Option type="QString" value="otb:SFSTextureExtraction_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="1758" name="component_pos_x"/>
+            <Option type="double" value="1208" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="SFSTextures" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="323" name="component_pos_x"/>
+          <Option type="double" value="1731" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="SFSTextures" name="name"/>
+          <Option type="QString" value="out" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="channel">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="in">
+          <Option type="Map">
+            <Option type="QString" value="otb:RadiometricIndices_1" name="child_id"/>
+            <Option type="QString" value="out" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="outputpixeltype">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.alpha">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.maxcons">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.nbdir">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="20" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.spathre">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="100" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="parameters.spethre">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="50" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues"/>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option type="QString" value="Version2" name="internal_version"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" value="" name="model_group"/>
+  <Option type="QString" value="2_model_indices_irc_radio_textures" name="model_name"/>
+  <Option type="QString" value="" name="outputGroup"/>
+  <Option name="outputOrder"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="bi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="QgsProcessingOutputLayerDefinition" name="default">
+        <Option type="Map">
+          <Option type="Map" name="create_options">
+            <Option type="QString" value="windows-1252" name="fileEncoding"/>
+          </Option>
+          <Option type="Map" name="sink">
+            <Option type="bool" value="true" name="active"/>
+            <Option type="int" value="1" name="type"/>
+            <Option type="QString" value="" name="val"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="BI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_1" name="_modelChildId"/>
+        <Option type="QString" value="BI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="bi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="bi2">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="BI2" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_7" name="_modelChildId"/>
+        <Option type="QString" value="BI2" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="bi2" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="bndvi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="BNDVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_1" name="_modelChildId"/>
+        <Option type="QString" value="BNDVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="bndvi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ci">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="QgsProcessingOutputLayerDefinition" name="default">
+        <Option type="Map">
+          <Option type="Map" name="create_options">
+            <Option type="QString" value="windows-1252" name="fileEncoding"/>
+          </Option>
+          <Option type="Map" name="sink">
+            <Option type="bool" value="true" name="active"/>
+            <Option type="int" value="1" name="type"/>
+            <Option type="QString" value="" name="val"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="CI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_2" name="_modelChildId"/>
+        <Option type="QString" value="CI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="ci" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="cigreen">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Cigreen" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_13" name="_modelChildId"/>
+        <Option type="QString" value="Cigreen" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="cigreen" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="cri">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="CRI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_5" name="_modelChildId"/>
+        <Option type="QString" value="CRI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="cri" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="cvi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="CVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_14" name="_modelChildId"/>
+        <Option type="QString" value="CVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="cvi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="evi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="EVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_16" name="_modelChildId"/>
+        <Option type="QString" value="EVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="evi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="exg">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="EXG" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_10" name="_modelChildId"/>
+        <Option type="QString" value="EXG" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="exg" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="gdvi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="GDVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_12" name="_modelChildId"/>
+        <Option type="QString" value="GDVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="gdvi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="gi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="GI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_2" name="_modelChildId"/>
+        <Option type="QString" value="GI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="gi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="gli">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="GLI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_6" name="_modelChildId"/>
+        <Option type="QString" value="GLI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="gli" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="haralick_advanced">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="haralick_advanced" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:HaralickTextureExtraction_2" name="_modelChildId"/>
+        <Option type="QString" value="haralick_advanced" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="haralick_advanced" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="haralick_simple">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="haralick_simple" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:HaralickTextureExtraction_1" name="_modelChildId"/>
+        <Option type="QString" value="haralick_simple" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="haralick_simple" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="hrfi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="HRFI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_4" name="_modelChildId"/>
+        <Option type="QString" value="HRFI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="hrfi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="msr">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="MSR" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_15" name="_modelChildId"/>
+        <Option type="QString" value="MSR" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="msr" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="myi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="MYI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_3" name="_modelChildId"/>
+        <Option type="QString" value="MYI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="myi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ndvi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="NDVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_11" name="_modelChildId"/>
+        <Option type="QString" value="NDVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="ndvi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ndwi2">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="NDWI2" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_5" name="_modelChildId"/>
+        <Option type="QString" value="NDWI2" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="ndwi2" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="raster">
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="raster" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="raster" name="name"/>
+      <Option type="QString" value="raster" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="rgv">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="RGV" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_8" name="_modelChildId"/>
+        <Option type="QString" value="RGV" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="rgv" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ri">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="RI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_3" name="_modelChildId"/>
+        <Option type="QString" value="RI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="ri" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ri2">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="RI2" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_17" name="_modelChildId"/>
+        <Option type="QString" value="RI2" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="ri2" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="rvi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="RVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_6" name="_modelChildId"/>
+        <Option type="QString" value="RVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="rvi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="savi">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="SAVI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:RadiometricIndices_4" name="_modelChildId"/>
+        <Option type="QString" value="SAVI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="savi" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="sfstextures">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="SFSTextures" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:SFSTextureExtraction_1" name="_modelChildId"/>
+        <Option type="QString" value="SFSTextures" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="sfstextures" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="vari">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="VARI" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option type="Map" name="metadata">
+        <Option type="QString" value="otb:BandMath_9" name="_modelChildId"/>
+        <Option type="QString" value="VARI" name="_modelChildOutputName"/>
+        <Option type="QString" value="otb" name="_modelChildProvider"/>
+      </Option>
+      <Option type="QString" value="vari" name="name"/>
+      <Option type="QString" value="rasterDestination" name="parameter_type"/>
+      <Option type="bool" value="false" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="raster">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1239" name="component_pos_x"/>
+        <Option type="double" value="651" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="raster" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="737" name="component_pos_x"/>
+      <Option type="double" value="862" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="raster" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+  </Option>
+</Option>
