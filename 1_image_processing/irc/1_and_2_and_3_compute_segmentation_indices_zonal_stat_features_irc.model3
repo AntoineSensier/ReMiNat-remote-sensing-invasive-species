@@ -10,16 +10,16 @@
         <Option value="" type="QString" name="color"/>
         <Option value="" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
-        <Option value="796" type="double" name="component_pos_x"/>
-        <Option value="397" type="double" name="component_pos_y"/>
+        <Option value="1479" type="double" name="component_pos_x"/>
+        <Option value="477" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="Clip raster by mask layer" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="534" type="double" name="component_pos_x"/>
-      <Option value="213" type="double" name="component_pos_y"/>
+      <Option value="1217" type="double" name="component_pos_x"/>
+      <Option value="293" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="id"/>
@@ -158,17 +158,17 @@
         <Option value="" type="QString" name="color"/>
         <Option value="Segmentation of the image" type="QString" name="component_description"/>
         <Option value="33" type="double" name="component_height"/>
-        <Option value="497" type="double" name="component_pos_x"/>
-        <Option value="329.5" type="double" name="component_pos_y"/>
+        <Option value="1043" type="double" name="component_pos_x"/>
+        <Option value="361.5" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="1_model_segmentation_generic_region" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="448" type="double" name="component_pos_x"/>
-      <Option value="407" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
+      <Option value="1034" type="double" name="component_pos_x"/>
+      <Option value="427" type="double" name="component_pos_y"/>
+      <Option value="278" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="model:1_model_segmentation_generic_region_1" type="QString" name="id"/>
       <Option name="outputs"/>
@@ -187,34 +187,85 @@
             <Option value="0" type="int" name="source"/>
           </Option>
         </Option>
+        <Option type="List" name="segmentation">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="QgsProcessingOutputLayerDefinition" name="static_value">
+              <Option type="Map">
+                <Option type="Map" name="create_options">
+                  <Option value="windows-1252" type="QString" name="fileEncoding"/>
+                </Option>
+                <Option type="Map" name="sink">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="1" type="int" name="type"/>
+                  <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+                </Option>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
       </Option>
     </Option>
-    <Option type="Map" name="model:model_indices_radio_1">
+    <Option type="Map" name="model:2_model_indices_irc_radio_textures_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option value="model:2_model_indices_radio_textures" type="QString" name="alg_id"/>
+      <Option value="model:2_model_indices_irc_radio_textures" type="QString" name="alg_id"/>
       <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
         <Option value="" type="QString" name="color"/>
         <Option value="calculation of spectral and textural indices" type="QString" name="component_description"/>
-        <Option value="38" type="double" name="component_height"/>
-        <Option value="783.5008937500002" type="double" name="component_pos_x"/>
-        <Option value="350.0448875000002" type="double" name="component_pos_y"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="1487" type="double" name="component_pos_x"/>
+        <Option value="266" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option value="2_model_indices_radio_textures" type="QString" name="component_description"/>
+      <Option value="2_model_indices_irc_radio_textures" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="783.1730437500003" type="double" name="component_pos_x"/>
-      <Option value="399.3575625000002" type="double" name="component_pos_y"/>
-      <Option value="235" type="double" name="component_width"/>
+      <Option value="1446.5" type="double" name="component_pos_x"/>
+      <Option value="363" type="double" name="component_pos_y"/>
+      <Option value="259" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option value="model:model_indices_radio_1" type="QString" name="id"/>
+      <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="id"/>
       <Option name="outputs"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
+        <Option type="List" name="bi">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="QgsProcessingOutputLayerDefinition" name="static_value">
+              <Option type="Map">
+                <Option type="Map" name="create_options">
+                  <Option value="windows-1252" type="QString" name="fileEncoding"/>
+                </Option>
+                <Option type="Map" name="sink">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="1" type="int" name="type"/>
+                  <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+                </Option>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="ci">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="QgsProcessingOutputLayerDefinition" name="static_value">
+              <Option type="Map">
+                <Option type="Map" name="create_options">
+                  <Option value="windows-1252" type="QString" name="fileEncoding"/>
+                </Option>
+                <Option type="Map" name="sink">
+                  <Option value="true" type="bool" name="active"/>
+                  <Option value="1" type="int" name="type"/>
+                  <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+                </Option>
+              </Option>
+            </Option>
+          </Option>
+        </Option>
         <Option type="List" name="raster">
           <Option type="Map">
             <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="child_id"/>
@@ -224,31 +275,31 @@
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="model:model_zonal_stat_indice_otb_1">
+    <Option type="Map" name="model:3_model_zonal_stat_indices_irc_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option value="model:3_model_zonal_stat_indices" type="QString" name="alg_id"/>
+      <Option value="model:3_model_zonal_stat_indices_irc" type="QString" name="alg_id"/>
       <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
         <Option value="" type="QString" name="color"/>
         <Option value="Zonal statistics withs spectral and textural indices, also add calculation of morphological indices" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
-        <Option value="652.5" type="double" name="component_pos_x"/>
-        <Option value="622" type="double" name="component_pos_y"/>
-        <Option value="179" type="double" name="component_width"/>
+        <Option value="1731.5" type="double" name="component_pos_x"/>
+        <Option value="527" type="double" name="component_pos_y"/>
+        <Option value="143" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option value="3_model_zonal_stat_indices" type="QString" name="component_description"/>
+      <Option value="3_model_zonal_stat_indices_irc" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="781" type="double" name="component_pos_x"/>
-      <Option value="519" type="double" name="component_pos_y"/>
-      <Option value="200" type="double" name="component_width"/>
+      <Option value="1387.5" type="double" name="component_pos_x"/>
+      <Option value="552" type="double" name="component_pos_y"/>
+      <Option value="235" type="double" name="component_width"/>
       <Option name="dependencies"/>
-      <Option value="model:model_zonal_stat_indice_otb_1" type="QString" name="id"/>
+      <Option value="model:3_model_zonal_stat_indices_irc_1" type="QString" name="id"/>
       <Option type="Map" name="outputs">
         <Option type="Map" name="zonal_stat">
-          <Option value="model:model_zonal_stat_indice_otb_1" type="QString" name="child_id"/>
+          <Option value="model:3_model_zonal_stat_indices_irc_1" type="QString" name="child_id"/>
           <Option value="" type="QString" name="color"/>
           <Option type="Map" name="comment">
             <Option value="" type="QString" name="color"/>
@@ -262,8 +313,8 @@
           </Option>
           <Option value="zonal_stat" type="QString" name="component_description"/>
           <Option value="30" type="double" name="component_height"/>
-          <Option value="1043" type="double" name="component_pos_x"/>
-          <Option value="599" type="double" name="component_pos_y"/>
+          <Option value="0" type="double" name="component_pos_x"/>
+          <Option value="0" type="double" name="component_pos_y"/>
           <Option value="200" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -276,31 +327,52 @@
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
+        <Option type="List" name="bi2">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="bi2" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
         <Option type="List" name="bndvi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="bndvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="brightness">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="bi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="ci">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="ci" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="cigreen">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="cigreen" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="cri">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="cri" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="cvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="cvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
@@ -310,73 +382,122 @@
             <Option value="0" type="int" name="source"/>
           </Option>
         </Option>
+        <Option type="List" name="evi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="evi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
         <Option type="List" name="exg">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="exg" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="gdvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="gdvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="gi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="gi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="gli">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="gli" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="haralick_texture_advanced">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="haralick_advanced" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="haralick_texture_simple">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="haralick_simple" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="hrfi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="hrfi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
-        <Option type="List" name="img_rgb">
+        <Option type="List" name="img_irgb">
           <Option type="Map">
             <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="child_id"/>
             <Option value="OUTPUT" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
+        <Option type="List" name="msr">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="msr" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
         <Option type="List" name="myi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="myi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
-        <Option type="List" name="ngrdi">
+        <Option type="List" name="ndvi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
-            <Option value="ngrdi" type="QString" name="output_name"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ndvi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ndwi2">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ndwi2" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="rgv">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="rgv" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="ri">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="ri" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ri2">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ri2" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="rvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="rvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
@@ -387,161 +508,238 @@
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
+        <Option type="List" name="savi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="savi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
         <Option type="List" name="sfs_texture">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="sfstextures" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="vari">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="vari" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
       </Option>
     </Option>
-    <Option type="Map" name="script:remove_temp_files_1">
+    <Option type="Map" name="script:remove_temp_files_irc_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
-      <Option value="script:remove_temp_files" type="QString" name="alg_id"/>
+      <Option value="script:remove_temp_files_irc" type="QString" name="alg_id"/>
       <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
         <Option value="" type="QString" name="color"/>
         <Option value="" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
-        <Option value="1382" type="double" name="component_pos_x"/>
-        <Option value="328" type="double" name="component_pos_y"/>
+        <Option value="2072" type="double" name="component_pos_x"/>
+        <Option value="337" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
-      <Option value="remove_temp_files" type="QString" name="component_description"/>
+      <Option value="remove_temp_files_irc" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="1223" type="double" name="component_pos_x"/>
-      <Option value="472" type="double" name="component_pos_y"/>
+      <Option value="1767" type="double" name="component_pos_x"/>
+      <Option value="428" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option type="List" name="dependencies">
         <Option type="Map">
-          <Option value="model:model_zonal_stat_indice_otb_1" type="QString" name="child_id"/>
+          <Option value="model:3_model_zonal_stat_indices_irc_1" type="QString" name="child_id"/>
           <Option value="" type="QString" name="conditional_branch"/>
         </Option>
       </Option>
-      <Option value="script:remove_temp_files_1" type="QString" name="id"/>
+      <Option value="script:remove_temp_files_irc_1" type="QString" name="id"/>
       <Option name="outputs"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
-        <Option type="List" name="ClipRasterByMaskLayer">
+        <Option type="List" name="Bi2">
           <Option type="Map">
-            <Option value="gdal:cliprasterbymasklayer_1" type="QString" name="child_id"/>
-            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="bi2" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
-        <Option type="List" name="ClipVectorByMaskLayer">
+        <Option type="List" name="Haralick_advanced">
           <Option type="Map">
-            <Option value="model:1_model_segmentation_generic_region_1" type="QString" name="child_id"/>
-            <Option value="segmentation" type="QString" name="output_name"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="haralick_advanced" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Haralick_simple">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="haralick_simple" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Ndwi2">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ndwi2" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Rvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="rvi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Sfstextures">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="sfstextures" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="bndvi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="bndvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="brightness">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="bi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="cigreen">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="cigreen" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="cri">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="cri" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="cvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="cvi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="evi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="evi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="exg">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="exg" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="gdvi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="gdvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="gi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="gi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="gli">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="gli" type="QString" name="output_name"/>
-            <Option value="1" type="int" name="source"/>
-          </Option>
-        </Option>
-        <Option type="List" name="haralick_texture_simple">
-          <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
-            <Option value="haralick_simple" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="hrfi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="hrfi" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="msr">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="msr" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="myi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="myi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
-        <Option type="List" name="ngrdi">
+        <Option type="List" name="ndvi">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
-            <Option value="ngrdi" type="QString" name="output_name"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ndvi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="rgv">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="rgv" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="ri">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="ri" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ri2">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="ri2" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="savi">
+          <Option type="Map">
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
+            <Option value="savi" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="sfs_texture">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="sfstextures" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="vari">
           <Option type="Map">
-            <Option value="model:model_indices_radio_1" type="QString" name="child_id"/>
+            <Option value="model:2_model_indices_irc_radio_textures_1" type="QString" name="child_id"/>
             <Option value="vari" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
@@ -560,32 +758,18 @@
         <Option type="Map" name="source">
           <Option value="true" type="bool" name="active"/>
           <Option value="1" type="int" name="type"/>
-          <Option value="Grid_3e1852f2_d17b_4e19_9c31_602848175cdf" type="QString" name="val"/>
+          <Option value="Grid_da59a54d_703a_4305_b772_1e3af434830e" type="QString" name="val"/>
         </Option>
       </Option>
     </Option>
-    <Option value="Grand_Coude_MNT_1m_Sintegra_2024_4062204b_6572_435b_b6e1_2759f00abea8" type="QString" name="dem"/>
-    <Option value="Grand_Coude_MNC_1m_v2_8ebdb60b_8490_4b24_8d70_e7f22306c9d3" type="QString" name="dhm"/>
-    <Option value="D:/REMINAT/Data/Grand_Coude/ortho_2024_Sintegra/TIF/Grand_Coude_ortho_Sintegra_5cm_2024.tif" type="QString" name="image"/>
-    <Option type="QgsProcessingOutputLayerDefinition" name="zonal_stat">
-      <Option type="Map">
-        <Option type="Map" name="create_options">
-          <Option value="windows-1252" type="QString" name="fileEncoding"/>
-        </Option>
-        <Option type="Map" name="sink">
-          <Option value="true" type="bool" name="active"/>
-          <Option value="1" type="int" name="type"/>
-          <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
-        </Option>
-      </Option>
-    </Option>
+    <Option value="D:/REMINAT/Data/Pandanaie/ortho_2025_Helimap/TIF/Pandanaie_IRGB_5cm_Helimap_2026.tif" type="QString" name="image"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option value="Version2" type="QString" name="internal_version"/>
   <Option name="modelVariables"/>
   <Option value="" type="QString" name="model_group"/>
-  <Option value="1_and_2_and_3_compute_segmentation_indices_zonal_stat_features" type="QString" name="model_name"/>
+  <Option value="1_and_2_and_3_compute_segmentation_indices_zonal_stat_features_irc" type="QString" name="model_name"/>
   <Option value="" type="QString" name="outputGroup"/>
   <Option name="outputOrder"/>
   <Option type="Map" name="parameterDefinitions">
@@ -631,7 +815,7 @@
       <Option value="0" type="int" name="flags"/>
       <Option value="" type="QString" name="help"/>
       <Option type="Map" name="metadata">
-        <Option value="model:model_zonal_stat_indice_otb_1" type="QString" name="_modelChildId"/>
+        <Option value="model:3_model_zonal_stat_indices_irc_1" type="QString" name="_modelChildId"/>
         <Option value="zonal_stat" type="QString" name="_modelChildOutputName"/>
         <Option value="model" type="QString" name="_modelChildProvider"/>
       </Option>
@@ -643,10 +827,8 @@
   </Option>
   <Option type="StringList" name="parameterOrder">
     <Option value="image" type="QString"/>
-    <Option value="mnc_mnh" type="QString"/>
-    <Option value="mnt" type="QString"/>
-    <Option value="zones_features" type="QString"/>
-    <Option value="resultat_segmentation" type="QString"/>
+    <Option value="clip_grid" type="QString"/>
+    <Option value="dhm" type="QString"/>
   </Option>
   <Option type="Map" name="parameters">
     <Option type="Map" name="clip_grid">
@@ -654,17 +836,17 @@
       <Option type="Map" name="comment">
         <Option value="" type="QString" name="color"/>
         <Option value="Grid to clip the image and process by cell&#xa;Click on &quot;Iterate over&quot; next to the input when launching the script to active iteration for each cell" type="QString" name="component_description"/>
-        <Option value="69" type="double" name="component_height"/>
-        <Option value="217" type="double" name="component_pos_x"/>
-        <Option value="265.5" type="double" name="component_pos_y"/>
-        <Option value="210" type="double" name="component_width"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="693.5" type="double" name="component_pos_x"/>
+        <Option value="330" type="double" name="component_pos_y"/>
+        <Option value="197" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="clip_grid" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="195" type="double" name="component_pos_x"/>
-      <Option value="346" type="double" name="component_pos_y"/>
+      <Option value="693" type="double" name="component_pos_x"/>
+      <Option value="395" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option value="clip_grid" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
@@ -676,16 +858,16 @@
         <Option value="" type="QString" name="color"/>
         <Option value="" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
-        <Option value="1434.2026971998384" type="double" name="component_pos_x"/>
-        <Option value="29.557601532455465" type="double" name="component_pos_y"/>
+        <Option value="1953.2026971998384" type="double" name="component_pos_x"/>
+        <Option value="168.55760153245546" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="dhm" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="206" type="double" name="component_pos_x"/>
-      <Option value="557" type="double" name="component_pos_y"/>
+      <Option value="77.00000000000001" type="double" name="component_height"/>
+      <Option value="676" type="double" name="component_pos_x"/>
+      <Option value="600.5" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option value="dhm" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
@@ -697,16 +879,16 @@
         <Option value="" type="QString" name="color"/>
         <Option value="" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
-        <Option value="364" type="double" name="component_pos_x"/>
-        <Option value="301" type="double" name="component_pos_y"/>
+        <Option value="883" type="double" name="component_pos_x"/>
+        <Option value="440" type="double" name="component_pos_y"/>
         <Option value="100" type="double" name="component_width"/>
         <Option value="true" type="bool" name="outputs_collapsed"/>
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="image" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="171" type="double" name="component_pos_x"/>
-      <Option value="203" type="double" name="component_pos_y"/>
+      <Option value="688" type="double" name="component_pos_x"/>
+      <Option value="243" type="double" name="component_pos_y"/>
       <Option value="200" type="double" name="component_width"/>
       <Option value="image" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>

@@ -475,7 +475,7 @@
         <Option type="List" name="threshold">
           <Option type="Map">
             <Option value="2" type="int" name="source"/>
-            <Option value="110" type="double" name="static_value"/>
+            <Option value="100" type="double" name="static_value"/>
           </Option>
         </Option>
       </Option>
@@ -550,7 +550,7 @@
         </Option>
       </Option>
     </Option>
-    <Option value="" type="QString" name="raster"/>
+    <Option type="invalid" name="raster"/>
     <Option type="QgsProcessingOutputLayerDefinition" name="test_seg">
       <Option type="Map">
         <Option type="Map" name="create_options">
