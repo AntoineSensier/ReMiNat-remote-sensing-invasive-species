@@ -6,7 +6,6 @@ The project use model builder of QGIS with OrfeToolBox and Python with scikit-le
 *ReMiNat-remote-sensing-invasive-species* a été développé par Antoine Sensier ([*UMR PVPMT*](https://umr-pvbmt.cirad.fr) / [*CIRAD*](https://www.cirad.fr)).
 
 # Decription
-TODO ADD PYTHON scripts
 
 1_image_processing:
    Processing steps to be performed in sequence using the QGIS Graphical Modeler to extract spectral, textural, and morphological indices from the image, can use also Digital Height Model and Digital Elevation Model.
