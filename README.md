@@ -3,7 +3,7 @@ Remote Sensing treatments for detection of alien invasive plants species with ve
 
 The project use model builder of QGIS with OrfeoToolBox and Python with scikit-learn.
 
-*ReMiNat-remote-sensing-invasive-species* a été développé par Antoine Sensier ([*UMR PVPMT*](https://umr-pvbmt.cirad.fr) / [*CIRAD*](https://www.cirad.fr)).
+*ReMiNat-remote-sensing-invasive-species* was developed by Antoine Sensier ([*UMR PVPMT*](https://umr-pvbmt.cirad.fr) / [*CIRAD*](https://www.cirad.fr)).
 
 # Decription
 
