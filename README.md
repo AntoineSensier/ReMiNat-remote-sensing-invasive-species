@@ -1,3 +1,4 @@
+<img width="1000" height="862" alt="process_classification_github" src="https://github.com/user-attachments/assets/aab63bec-9e23-4102-a519-e3a65525eec9" />
 # ReMiNat-remote-sensing-invasive-species
 Remote Sensing treatments for detection of alien invasive plants species with very high-resolution image (project ReMiNat : restauration des milieu naturels de la Réunion)
 
